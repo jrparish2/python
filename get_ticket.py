@@ -6,6 +6,7 @@ payload = {"username":"devnetuser","password":"Cisco123!"}
 
 #Content type must be included in the header
 header = {"content-type": "application/json"}
+#add by parish
 
 #Performs a POST on the specified url.
 response= requests.post(url,data=json.dumps(payload), headers=header, verify=False)
